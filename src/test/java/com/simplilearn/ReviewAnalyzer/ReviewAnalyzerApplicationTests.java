@@ -1,10 +1,10 @@
-package com.simplilearn.ReviewAnalyser;
+package com.simplilearn.ReviewAnalyzer;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
-class ReviewAnalyserApplicationTests {
-    private ReviewAnalyserApplication analyser = new ReviewAnalyserApplication();
+class ReviewAnalyzerApplicationTests {
+    private ReviewAnalyzerApplication analyzer = new ReviewAnalyzerApplication();
     @Test	 
     public void testWordCount() {     	 
    	 assertEquals(7,analyser.getWordCount("Train to win in the digital economy"));	 
